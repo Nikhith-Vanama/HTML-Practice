@@ -1,4 +1,4 @@
-# HTML-Practice
+# HTML Overview
 
 > HTML (HyperText Markup Language) is the standard language used to create and structure content on the web.  
 
