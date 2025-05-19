@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    table {
+        width: 80%;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 20px; 
+        font-size: 18px; 
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    th[align="center"] {
+        text-align: center;
+    }
+    
+    td.lunch {
+        writing-mode: vertical-rl;
+        text-align: center;
+        font-weight: bold;
+        background-color: #f0e68c;
+        font-size: 20px;
+    }
+</style>
+</head>
+<body>
+
+<h1 align="center" style="font-size:30px"><b>Time Table</b></h1>
+
+<table>
+    <tr>
+        <th align="center">Day\Time</th>
+        <th align="center">9:30-11:00</th>
+        <th align="center">11:00-12:30</th>
+        <th rowspan="7" class="lunch">Lunch</th> 
+        <th align="center">2:30-4:00</th>
+        <th align="center">4:00-5:00</th>
+    </tr>
+    <tr>
+        <td align="center">Monday</td>
+        <td align="center">WT</td>
+        <td align="center">ML</td>
+        <td align="center">SPM</td>
+        <td align="center">Library</td>
+    </tr>
+    <tr>
+        <td align="center">Tuesday</td>
+        <td colspan="2" align="center">ML with Python Lab</td>
+        <td align="center">DWDM</td>
+        <td align="center">Library</td>
+    </tr>
+    <tr>
+        <td align="center">Wednesday</td>
+        <td align="center">IoT</td>
+        <td align="center">Library</td>
+        <td colspan="2" align="center">WT Lab</td>
+    </tr>
+    <tr>
+        <td align="center">Thursday</td>
+        <td align="center">Mini Project</td>
+        <td align="center">CNS</td>
+        <td colspan="2" align="center">IoT Lab</td>
+    </tr>
+    <tr>
+        <td align="center">Friday</td>
+        <td align="center">IoT</td>
+        <td align="center">DWDM</td>
+        <td colspan="2" align="center">Library</td>
+    </tr>
+    <tr>
+        <td align="center">Saturday</td>
+        <td align="center">CNS</td>
+        <td align="center">SPM</td>
+        <td colspan="2" align="center">Sports</td>
+    </tr>
+</table>
+
+</body>
+</html>

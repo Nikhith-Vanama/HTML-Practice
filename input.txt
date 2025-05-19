@@ -1,0 +1,5 @@
+Computers and other network devices need to communicate.
+
+A mechanism must make it possible for a computer to communicate with another computer on the same network or another network.
+
+The mechanism must ensure that a message moves from the sender to the recipient, enable the receiver to retrieve the message and send feedback, and acknowledge reception or failure of communication.

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE book SYSTEM "book.dtd">
+
+<book>
+
+<title>WOrld Wide Web</title>
+
+<author>Robert W.Sebesta</author>
+
+<ISBN>354324654</ISBN>
+
+<publisher>Pearson Publications</publisher>
+
+<edition>4th Edition</edition>
+
+<price>Rs.500/-</price>
+
+</book>
